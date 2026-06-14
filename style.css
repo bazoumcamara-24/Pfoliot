@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+}
+
+.ma_bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    gap: 1rem;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    text-align: center;
+}
+
+.services
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    gap: 2rem;
+}
+
+.item_serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+i{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border-radius: 90rem;
+    width: 95px;
+    height: 95%;
+}
