@@ -4,6 +4,13 @@
     font-family: Arial, sans-serif;
     font-size: 3vh;
 }
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
 
 .header{
     display: flex;
@@ -58,4 +65,34 @@ i{
     border-radius: 90rem;
     width: 95px;
     height: 95%;
+}
+
+.se_vendre{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
