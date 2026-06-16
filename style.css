@@ -1,22 +1,31 @@
-:root{
-    --bg: #000000;
-    --text: #FF4A4A;
+:root {
+    --bg: #07111F;
+    --text: #FFFFFF;
     --btn: #FFFFFF;
     --primary: #B7FF2A;
-    --secondary: #03860c;
+    --secondary: #0A1628;
+    --font-main:'Poppins', sans-serif;
 
 }
 
 *{
     padding: 0;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 3vh;
+}
+body{
+    background-color: #07111F;
+    color: var(--btn);
+    font-family: var(Poppins);
 }
 a{
     text-decoration: none;
+    color: var(--text);
 }
-
+ a:hover{
+    color: var(--primary);
+}
 ul{
     display: flex;
     list-style: none;
@@ -32,22 +41,30 @@ ul{
     gap: 20rem;
     position: sticky;
     top: 0;
-    background-color: aqua;
+    background-color: var(--bg);
+}
+.vert{
+    color: var(--primary);
+}
+img{
+    height: 500px;
+    width: 500px;
 }
 hr{
     width: 40rem;
     text-align: 50rem;
-    
+    margin: 20px auto;
 }
 
 .ma_bio{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     height: 520px;
-    gap: 0.5rem;
+    gap: 1rem;
+}
+.mon_Nom{
+    font-size: 40pt;
 }
 
 .article{
