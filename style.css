@@ -1,7 +1,7 @@
 :root {
     --bg: #07111F;
     --text: #FFFFFF;
-    --btn: #FFFFFF;
+    --btn: #ffffff;
     --primary: #B7FF2A;
     --secondary: #0A1628;
     --font-main:'Poppins', sans-serif;
@@ -16,7 +16,7 @@
 }
 body{
     background-color: #07111F;
-    color: var(--btn);
+    color: var(--text);
     font-family: var(Poppins);
 }
 a{
@@ -61,10 +61,34 @@ hr{
     justify-content: center;
     align-items: center;
     height: 520px;
+    gap: 3rem;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
 .mon_Nom{
     font-size: 40pt;
+}
+.Mes_btn{
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+}
+.btn a{
+    color: var(--bg);
+    transition: 1s;
+}
+.btn a:hover{
+    color: var(--text);
+}
+
+.btn{
+    background-color: var(--primary);
+    border-radius: 10px;
+    padding-bottom: 60px auto;
+    padding: 4px;
 }
 
 .article{
