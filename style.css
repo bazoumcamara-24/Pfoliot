@@ -1,3 +1,12 @@
+:root{
+    --bg: #000000;
+    --text: #FF4A4A;
+    --btn: #FFFFFF;
+    --primary: #B7FF2A;
+    --secondary: #03860c;
+
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -9,16 +18,26 @@ a{
 }
 
 ul{
+    display: flex;
     list-style: none;
+    gap: 4rem;
 }
 
 .header{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 120px;
+    height: 70px;
+    gap: 20rem;
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+}
+hr{
+    width: 40rem;
+    text-align: 50rem;
+    
 }
 
 .ma_bio{
@@ -27,8 +46,8 @@ ul{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 200px;
-    gap: 1rem;
+    height: 520px;
+    gap: 0.5rem;
 }
 
 .article{
@@ -54,7 +73,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 
 }
 
@@ -74,7 +93,7 @@ i{
     text-align: center;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .contact{
@@ -84,7 +103,7 @@ i{
     text-align: center;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .footer{
